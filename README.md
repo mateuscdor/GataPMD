@@ -24,16 +24,16 @@
 # GataBot-MD 🐈
 #### 🚀 Versión actual: 1.0.1
 ## ❇️ Información
-> Whatsapp usando una biblioteca de Baileys.
-> Si encuentra algún tipo de error, perdone por el momento
+> SE ESTÁ USANDO WHATSAPP CON UNA BIBLIOTECA DE BAILEYS.
+> SI ENCUENTRA UN ERROR PERDONE POR EL MOMENTO.
 >
-> • NOTA: ESTE REPOSITORIO NO PUEDE HACER SESIONES EN TERMUX, POR LO QUE SI BUSCAS CREAR UNA SESIÓN, PRIMERO DEBE DE UTILIZAR OTRO REPOSITORIO.
+> • ESTE REPOSITORIO NO PUEDE HACER SESIONES EN TERMUX, POR LO QUE SI BUSCAS CREAR UNA SESIÓN, PRIMERO DEBE DE UTILIZAR OTRO REPOSITORIO PARA OBTENER EL ARCHIVO session.data.json
 >  
-> • Repositorio recomendado para crear la sesión: [GataBot-GD-MD](https://github.com/GataNina-Li/GataBot-GD-MD)
+> • REPOSITORIO RECONMENDADO PARA CREAR LA SESIÓN: [GataBot-GD-MD](https://github.com/GataNina-Li/GataBot-GD-MD)
 >
-> • NOTA: asegúrese de que su red sea fluida y que su dispositivo esté bien, 
+> • ASEGÚRESE DE TENER UNA RED ESTABLE, Y CUMPLIR CON LOS REQUISITOS PARA UNA ÓPTIMA INSTALACIÓN. 
 > 
-> • Si usa termux, puede tardar mucho en responder, le sugiero que use heroku
+> • SI USA TERMUX PUEDE TARDAR EN RESPONDER O DAR ERROR, RECOMIENDO QUE CUANDO YA TENGA EL ARCHIVO session.data.json EN ESTE REPOSITORIO, LO EJECUTE EN HEROKU O EN UN HOSTS.
 > 
 
 ## Cómo cambiar la visualización del menú
