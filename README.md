@@ -60,6 +60,52 @@ Resultado:
 </p>
 
 ----
+## PARA USUARIOS DE TERMUX (Opcional)
+```bash
+RECUERDE QUE ANTES DE HACER LA INSTALACIÓN, DEBE DE CONTAR CON UNA SESIÓN.
+
+pkg update && pkg upgrade
+pkg install git
+pkg install nodejs
+pkg install ffmpeg
+pkg install imagemagick
+pkg install yarn
+git clone https://github.com/GataNina-Li/GataBot-MD
+cd GataBot-MD
+yarn
+node .
+```
+----
+## PARA USUARIOS DE WINDOWS/VPS/RDP (Opcional)
+
+* Descargar e instalar Git [`Klik Disini`](https://git-scm.com/downloads)
+* Descargar e instalar NodeJS [`Klik Disini`](https://nodejs.org/en/download)
+* Descargar e instalar FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
+* Descargar e instalar ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
+
+```bash
+git clone https://github.com/GataNina-Li/GataBot-MD
+cd GataBot-MD
+npm install
+npm update
+npm index
+```
+
+## Instalación de FFmpeg para Windows 
+* Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
+* Extraer archivos a `C:\` path.
+* Cambie el nombre de la carpeta extraída a `ffmpeg`.
+* Ejecute el símbolo del sistema como administrador.
+* Ejecute el siguiente comando:
+```cmd
+> setx /m PATH "C:\ffmpeg\bin;%PATH%"
+```
+Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
+* Ahora que tiene FFmpeg instalado, verifique que funcionó ejecutando este comando para ver la versión:
+```cmd
+> ffmpeg -version
+```
+----
 ## ⚙ Configuracion de la visualización del menú.
 ----
 ### Visualización del menú GIF
@@ -110,64 +156,6 @@ let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu
            hydratedButtons: [{           	
 ```
 ----           
-
-## HOW TO CONNECT TO MONGODB WHEN RUN IN HEROKU
-
-* Create account and database in mongodb atlas [`watch here`](https://youtu.be/rPqRyYJmx2g)
-* when you already have a database, you just need to take mongourl
-* Put mongourl in Procfile `web: node . --db 'mongourl'`
-* Example `worker: node . --db 'mongodb+srv://Paquito1923:<password>@cluster0.wwdwr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'`
-
-
-## UNTUK PENGGUNA WINDOWS/VPS/RDP
-
-* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
-* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
-* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
-* Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/Paquito1923/elyasmd
-cd elyasmd
-npm install
-npm update
-npm index
-```
-
----------
-
-## UNTUK PENGGUNA TERMUX
-```bash
-
-CARI SESSION DULU PAKAI SC BOT MD YANG LAIN🙏
-pkg update && pkg upgrade
-pkg install git
-pkg install nodejs
-pkg install ffmpeg
-pkg install imagemagick
-pkg install yarn
-git clone https://github.com/GataNina-Li/GataBot-MD
-cd GataBot-MD
-yarn
-mc
-ganti session
-node .
-```
-
-## Installing the FFmpeg for Windows
-* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-> ffmpeg -version
-```
 <h3 align="center">Made by :</h3>
 <p align="center">
   </a href="https://github.com/ilmanhdyt"><img src="https://github.com/Hyzerr.png?size=128" height="128" width="128" /></a>
