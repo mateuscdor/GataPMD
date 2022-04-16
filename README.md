@@ -1,14 +1,14 @@
-# Esta versión de GataBot no esta terminada.
+# ⚠️ Esta versión de GataBot no esta terminada.
 
 <p align="center">
 <img src="https://i.imgur.com/8fK4h6F.jpg" alt="GataBot-MD" width="500"/>
 </p>
 <p align="center">
-<a href="#"><img title="GataBot-MD" src="https://img.shields.io/badge/CAMBIAR LA SESIÓN ANTES DE USAR-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
+<a href="#"><img title="GataBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
 </p>
 <p align="center">
 </p>
-<a href="#"><img title="PENTING" src="https://img.shields.io/badge/PARA USUARIOS DE TERMUX POR FAVOR LEA EL README-red?colorA=%255ff0000&colorB=%23971920&style=for-the-badge"></a>
+<a href="#"><img title="GataBot-MD" src="https://img.shields.io/badge/ES NECESARIO QUE LEA TODO EL README-red?colorA=%255ff0000&colorB=%23971920&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p>
@@ -21,9 +21,9 @@
 
 ---
 
-# GataBot-MD
-#### Versión actual: 1.0.0
-## Información
+# GataBot-MD 🐈
+#### 🚀 Versión actual: 1.0.1
+## ❇️ Información
 > Whatsapp usando una biblioteca de Baileys.
 > Si encuentra algún tipo de error, perdone por el momento
 >
