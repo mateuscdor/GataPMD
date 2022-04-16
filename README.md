@@ -37,10 +37,30 @@
 > • SI USA TERMUX PUEDE TARDAR EN RESPONDER O DAR ERROR, RECOMIENDO QUE CUANDO YA TENGA EL ARCHIVO session.data.json EN ESTE REPOSITORIO, LO EJECUTE EN HEROKU O EN UN HOSTS.
 > 
 
-#### ACTIVAR EN HEROKU
+#### 🟣 ACTIVAR EN HEROKU
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD)
 
-## Configuracion de la visualización del menú.
+----
+## ⚡️ PARA USUARIOS DE HEROKU
+### 👇 Añada lo siguente al Buildpack:
+```
+heroku/nodejs
+```
+```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+```
+```
+https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
+```
+Resultado:
+----
+
+<p align="letf">
+<img src="https://i.imgur.com/u01zQtU.jpg" alt="GataBot-MD" width="500"/>
+</p>
+
+----
+## ⚙ Configuracion de la visualización del menú.
 ----
 ### Visualización del menú GIF
 ```ts
@@ -133,13 +153,6 @@ mc
 ganti session
 node .
 ```
-
-## UNTUK PENGGUNA HEROKU
-
-### Instal Buildpack
-* heroku/nodejs
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git*
 
 ## Installing the FFmpeg for Windows
 * Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
