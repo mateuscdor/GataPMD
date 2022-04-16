@@ -1,48 +1,42 @@
 <p align="center">
-<img src="https://telegra.ph/file/780bc71b9c7a90cb84e58.jpg" alt="Hyzer-MD" width="250"/>
-
-
+<img src="https://i.imgur.com/8fK4h6F.jpg" alt="GataBot-MD" width="500"/>
 </p>
 <p align="center">
-<a href="#"><img title="Hyzer-MD" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="GataBot-MD" src="https://img.shields.io/badge/CAMBIAR LA SESIÓN ANTES DE USAR-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
 </p>
 <p align="center">
 </p>
-<a href="#"><img title="PENTING" src="https://img.shields.io/badge/BAGI USER TERMUX HARAP BACA README-red?colorA=%255ff0000&colorB=%23971920&style=for-the-badge"></a>
+<a href="#"><img title="PENTING" src="https://img.shields.io/badge/PARA USUARIOS DE TERMUX POR FAVOR LEA EL README-red?colorA=%255ff0000&colorB=%23971920&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p>
 <p align="center">
-<a href="https://github.com/Paquito1923/elyasmd"><img title="Followers" src="https://img.shields.io/github/followers/Paquito1923?color=blue&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmd"><img title="Stars" src="https://img.shields.io/github/stars/Paquito1923/elyasmd?color=red&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmd/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Paquito1923/elyasmd?color=red&style=flat-square"></a>
-<a href="https://github.com/Paquito1923/elyasmdwatchers"><img title="Watching" src="https://img.shields.io/github/watchers/Paquito1923/elyasmd?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBot-MD"><img title="Followers" src="https://img.shields.io/github/followers/GataNina-Li?color=blue&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GataNina-Li/GataBot-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBot-MD"><img title="Watching" src="https://img.shields.io/github/watchers/GataNina-Li/GataBot-MD?label=Watchers&color=blue&style=flat-square"></a> 
 </p>
 
 ---
 
-# Hyzer Whatsapp MD
-## Information
-> HyBot whatsapp using a Baileys library.
-> Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
+# GataBot-MD
+#### Versión actual: 1.0.0
+## Información
+> Whatsapp usando una biblioteca de Baileys.
+> Si encuentra algún tipo de error, perdone por el momento
 >
-> • NOTE: INI SC GAK BISA BUAT SESSION DI TERMUX YA, JADI KALIAN CARI SESSION DULU PAKAI SC LAIN 
-> • rekomendasi sc buat cari session [disini](https://github.com/ilmanhdyt/ShiraoriBOT-Md)
+> • NOTA: ESTE REPOSITORIO NO PUEDE HACER SESIONES EN TERMUX, POR LO QUE SI BUSCAS CREAR UNA SESIÓN, PRIMERO DEBE DE UTILIZAR OTRO REPOSITORIO.
+>  
+> • Repositorio recomendado para crear la sesión: [GataBot-GD-MD](https://github.com/GataNina-Li/GataBot-GD-MD)
 >
-> • NOTE: Pastikan Jaringan kalian lancar dan device kalian bagus:v, 
+> • NOTA: asegúrese de que su red sea fluida y que su dispositivo esté bien, 
 > 
-> • Kalo pake termux mungkin bakal lama respon nya, saya sarankan pake heroku
+> • Si usa termux, puede tardar mucho en responder, le sugiero que use heroku
 > 
 
-<h3 align="center">Made by :</h3>
-<p align="center">
-  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/Hyzerr.png?size=128" height="128" width="128" /></a>
-  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/ilmanhdyt.png?size=128" height="128" width="128" /></a>
-</p>
-
-## How To Change Menu Display
+## Cómo cambiar la visualización del menú
 ----
-### Gif Menu Display
+### Visualización del menú GIF
 ```ts
  let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu.mp4'), gifPlayback: true }, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -54,7 +48,7 @@
            hydratedButtons: [{
 ```
 
-### Image Menu Display
+### Visualización del menú con imagen
 ```ts
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/elyas.jpg')}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -66,7 +60,7 @@ let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/elya
            hydratedButtons: [{
 ```
 
-### Location Menu Display
+### Visualización del menú con ubicación
 ```ts
  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -78,7 +72,7 @@ let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/elya
            hydratedButtons: [{       
 ```
 
-### Video Menu Display
+### Visualización del menú con vídeo
 ```ts
 let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu.mp4')}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -156,9 +150,13 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 ```cmd
 > ffmpeg -version
 ```
+<h3 align="center">Made by :</h3>
+<p align="center">
+  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/Hyzerr.png?size=128" height="128" width="128" /></a>
+  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/ilmanhdyt.png?size=128" height="128" width="128" /></a>
+</p>
 
 # Thanks to
- [![Nurutomo](https://github.com/Nurutomo.png?size=150)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=250)](https://github.com/ariffb25) | [![F](https://github.com/Alfarqun.png?size=80)](https://github.com/Alfarqun)
-----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [F](https://github.com/Alfarqun)
- Author | suhu | suhu
+ [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
+ [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) 
+ [![F](https://github.com/Alfarqun.png?size=100)
