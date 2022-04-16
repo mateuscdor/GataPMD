@@ -155,14 +155,18 @@ let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu
            hydratedFooterText: wm,
            hydratedButtons: [{           	
 ```
-----           
-<h3 align="center">Made by :</h3>
-<p align="center">
-  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/Hyzerr.png?size=128" height="128" width="128" /></a>
-  </a href="https://github.com/ilmanhdyt"><img src="https://github.com/ilmanhdyt.png?size=128" height="128" width="128" /></a>
-</p>
+### 🌟 CREADORA 
 
-# Thanks to
+[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li)
+
+### 🌟 AGRADECIMIENTOS
+
+[![GataNina-Li](https://github.com/Hyzerr.png?size=100)](https://github.com/Hyzerr)
+[![GataNina-Li](https://github.com/ilmanhdyt.png?size=100)](https://github.com/ilmanhdyt)
+[![GataNina-Li](https://github.com/Paquito1923.png?size=100)](https://github.com/Paquito1923)
+[![GataNina-Li](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
+
+### 🌟 CONTRIBUYENTES 
  [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
  [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) 
- [![F](https://github.com/Alfarqun.png?size=100)
+ [![F](https://github.com/Alfarqun.png?size=100)](https://github.com/Alfarqun) 
