@@ -37,7 +37,10 @@
 > • SI USA TERMUX PUEDE TARDAR EN RESPONDER O DAR ERROR, RECOMIENDO QUE CUANDO YA TENGA EL ARCHIVO session.data.json EN ESTE REPOSITORIO, LO EJECUTE EN HEROKU O EN UN HOSTS.
 > 
 
-## Cómo cambiar la visualización del menú
+#### ACTIVAR EN HEROKU
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD)
+
+## Configuracion de la visualización del menú.
 ----
 ### Visualización del menú GIF
 ```ts
@@ -87,7 +90,6 @@ let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/menu
            hydratedButtons: [{           	
 ```
 ----           
-
 
 ## HOW TO CONNECT TO MONGODB WHEN RUN IN HEROKU
 
