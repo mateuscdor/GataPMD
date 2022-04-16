@@ -1,3 +1,5 @@
+# Esta versión de GataBot no esta terminada.
+
 <p align="center">
 <img src="https://i.imgur.com/8fK4h6F.jpg" alt="GataBot-MD" width="500"/>
 </p>
