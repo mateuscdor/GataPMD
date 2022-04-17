@@ -52,7 +52,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 ```
 https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
 ```
-Resultado:
+❇️ Resultado:
 ----
 
 <p align="letf">
@@ -60,7 +60,7 @@ Resultado:
 </p>
 
 ----
-## PARA USUARIOS DE TERMUX (Opcional)
+## 📲 PARA USUARIOS DE TERMUX (Opcional)
 ```bash
 RECUERDE QUE ANTES DE HACER LA INSTALACIÓN, DEBE DE CONTAR CON UNA SESIÓN.
 
@@ -76,7 +76,7 @@ yarn
 node .
 ```
 ----
-## PARA USUARIOS DE WINDOWS/VPS/RDP (Opcional)
+## 💻 PARA USUARIOS DE WINDOWS/VPS/RDP (Opcional)
 
 * Descargar e instalar Git [`Klik Disini`](https://git-scm.com/downloads)
 * Descargar e instalar NodeJS [`Klik Disini`](https://nodejs.org/en/download)
@@ -91,7 +91,7 @@ npm update
 npm index
 ```
 
-## Instalación de FFmpeg para Windows 
+## 💻 Instalación de FFmpeg para Windows 
 * Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
 * Extraer archivos a `C:\` path.
 * Cambie el nombre de la carpeta extraída a `ffmpeg`.
