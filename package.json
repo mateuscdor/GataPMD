@@ -1,5 +1,5 @@
 {
-    "name": "Shiro-md",
+    "name": "GataBot-MD",
     "version": "3.5.4",
     "description": "Simple Bot WhatsApp",
     "depecrated": false,
@@ -23,16 +23,16 @@
         "ShiraoriBOT",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/Paquito1923/elyasmd",
+    "homepage": "https://github.com/GataNina-Li",
     "author": {
-        "name": "Elyas"
+        "name": "GataNina-Li"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Paquito1923/elyasmd.git"
+        "url": "git+https://github.com/GataNina-Li/GataBot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Paquito1923/elyasmd/issues"
+        "url": "https://github.com/GataNina-Li/GataBot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
