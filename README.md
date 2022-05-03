@@ -22,7 +22,7 @@
 ---
 
 # GataBot-MD 🐈
-> #### 🚀 Versión actual: 1.0.3
+> #### 🚀 Versión actual: 1.0.4
 > 
 ## ❇️ Información
 > SE ESTÁ USANDO WHATSAPP CON UNA BIBLIOTECA DE BAILEYS.
@@ -60,20 +60,24 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
 </p>
 
 ----
-## 📲 PARA USUARIOS DE TERMUX (Opcional)
+## 📲 PARA USUARIOS DE TERMUX
 ```bash
 RECUERDE QUE ANTES DE HACER LA INSTALACIÓN, DEBE DE CONTAR CON UNA SESIÓN.
 
+termux-setup-storage
 pkg update && pkg upgrade
-pkg install git
-pkg install nodejs
-pkg install ffmpeg
-pkg install imagemagick
+pkg install git -y
+pkg install nodejs -y
+pkg install ffmpeg -y
+pkg install imagemagick -y
 pkg install yarn
 git clone https://github.com/GataNina-Li/GataBot-MD
 cd GataBot-MD
 yarn
-node .
+npm install
+ls
+npm update
+npm start
 ```
 ----
 ## 💻 PARA USUARIOS DE WINDOWS/VPS/RDP (Opcional)
