@@ -488,16 +488,16 @@ function clockString(ms) {
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat DiniHari"
-  if (time >= 4) {
+  if (time >= 6) {
     res = "Buenos Dias"
   }
-  if (time > 10) {
-    res = "Buena tarde"
-  }
-  if (time >= 15) {
+  if (time > 13) {
     res = "Buena tarde"
   }
   if (time >= 18) {
+    res = "Buena tarde"
+  }
+  if (time >= 11) {
     res = "Buenas noches"
   }
   return res
