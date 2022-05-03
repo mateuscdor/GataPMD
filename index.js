@@ -9,7 +9,7 @@ const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
-CFonts.say('GATABOT-MD', {
+CFonts.say('GATABOT\nMD', {
   colors: ['blueBright','yellowBright'],                                        font: 'block',
   align: 'center',
 })
