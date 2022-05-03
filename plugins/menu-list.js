@@ -226,18 +226,21 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
         listMessage: {
             title: `${ucapan()}, ${name}`,
             description: `┏━━━━〔 *${wm}* 〕━━━⬣
+┃⬡ *Tiempo Actual | Current Time*	    
+┃⬡ %time    
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Activa durante | Active during* 
 ┃⬡ ${uptime}
-┃┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Usuario(s) | Users*
 ┃⬡ ${Object.keys(global.db.data.users).length} 
-┃┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Modo | Mode*
 ┃⬡ ${global.opts['self'] ? 'Self' : 'publik'}
-┃┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Chat(s) Prohibido(s) | Forbidden Chats*
 ┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┃┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Usuario(s) Prohibido(s) | Prohibited Users*
 ┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ┗━━━━━━━━━━━━━━━⬣`,
@@ -486,16 +489,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat DiniHari"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Buenos Dias"
   }
   if (time > 10) {
-    res = "Selamat Siang"
+    res = "Buena tarde"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Buena tarde"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "Buenas noches"
   }
   return res
 }
