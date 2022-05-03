@@ -1,7 +1,7 @@
 //PARA USUARIOS DE WHATSAPP BUSSINES
 //UTILIZAR EL SEGUNDO MENÚ
-//CREADO POR GATA DIOS | HYZER OFFICIAL
-//JANGAN HAPUS NAMA SAYA, LU CUMA MAKE
+//CREADO POR GATA DIOS | HYZER 
+//MANTENER LOS CREDITOS POR FAVOR. GRACIAS
 let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 wm = global.wm
 let levelling = require('../lib/levelling')
@@ -226,12 +226,16 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
         listMessage: {
             title: `${ucapan()}, ${name}`,
             description: `┏━━━━〔 *${wm}* 〕━━━⬣
-┃⬡ *𝘈𝘤𝘵𝘪𝘷𝘢 𝘥𝘶𝘳𝘢𝘯𝘵𝘦:* ${uptime}
-┃⬡ ${Object.keys(global.db.data.users).length} *𝘜𝘴𝘶𝘢𝘳𝘪𝘰(𝘴)*
-┃⬡ *𝘔𝘰𝘥𝘰:* ${global.opts['self'] ? 'Self' : 'publik'}
-┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} *𝘊𝘩𝘢𝘵(𝘴) 𝘗𝘳𝘰𝘩𝘪𝘣𝘪𝘥𝘰(𝘴)*
-┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} *𝘜𝘴𝘶𝘢𝘳𝘪𝘰(𝘴) 𝘗𝘳𝘰𝘩𝘪𝘣𝘪𝘥𝘰(𝘴)*
-┃⬡ スパムしないでください
+┃⬡ *Activa durante | Active during* 
+┃⬡ ${uptime}
+┃⬡ *Usuario(s) | Users*
+┃⬡ ${Object.keys(global.db.data.users).length} 
+┃⬡ *Modo | Mode*
+┃⬡ ${global.opts['self'] ? 'Self' : 'publik'}
+┃⬡ *Chat(s) Prohibido(s) | Forbidden Chats*
+┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
+┃⬡ *Usuario(s) Prohibido(s) | Prohibited Users*
+┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
