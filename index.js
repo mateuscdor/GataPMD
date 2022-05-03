@@ -1,4 +1,4 @@
-console.log('Starting...')
+console.log('Iniciando...')
 let cluster = require('cluster')
 let path = require('path')
 let fs = require('fs')
