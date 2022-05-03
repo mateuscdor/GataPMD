@@ -10,11 +10,11 @@ const rl = Readline.createInterface(process.stdin, process.stdout)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
 CFonts.say('GATABOT\nMD', {
-  colors: ['#33FFCC','yellowBright'],                                        font: 'block', //blueBright
+  colors: ['#33CCFF','#FF6600'],                                        font: 'block', //blueBright
   align: 'center',
 })
 CFonts.say(`POR GATA DIOS | MULTI-DISPOSITIVOS`, {                                            
-colors: ['yellow'],                                                           
+colors: ['#FFFF00'],                                                           
 font: 'console',                                                              align: 'center',
 })
 
