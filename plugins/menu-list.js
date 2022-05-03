@@ -227,7 +227,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             title: `${ucapan()}, ${name}`,
             description: `┏━━━━〔 *${wm}* 〕━━━⬣
 ┃⬡ *Tiempo Actual | Current Time*	    
-┃⬡ %time    
+┃⬡ ${time}   
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Activa durante | Active during* 
 ┃⬡ ${uptime}
@@ -489,15 +489,15 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat DiniHari"
   if (time >= 6) {
-    res = "Buenos Dias"
+    res = "Buenos Días"
   }
   if (time > 13) {
-    res = "Buena tarde"
+    res = "Buenas tardes"
   }
   if (time >= 18) {
-    res = "Buena tarde"
+    res = "Buenas tardes"
   }
-  if (time >= 11) {
+  if (time >= 19) {
     res = "Buenas noches"
   }
   return res
