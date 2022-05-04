@@ -16,14 +16,21 @@ let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
-  ╭━━「 *𝙋𝙖𝙣𝙚𝙡 | 𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙* 」━━⬣
-  
-┌─── 「 TODAY 」───⬣
-│☂︎ *Dias | Days:* %week %weton
-│☂︎ *Fecha | Date:* %date
-│☂︎ *Fecha Islámica | Islamic Date:* %dateIslamic
-│☂︎ *Tiempo | Time:* %time
-╰────────────⬣
+╭━━「 *𝙋𝙖𝙣𝙚𝙡 | 𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙* 」━━⬣
+┃ 
+┃─── 「 𝙃𝙤𝙮 | 𝙏𝙤𝙙𝙖𝙮 」───⬣
+┃☂︎ *Dias | Days:*
+┃ %week %weton
+┃ ┈┈┈┈┈┈┈┈┈┈┈┈
+┃ ☂︎ *Fecha | Date:*
+┃ %date
+┃ ┈┈┈┈┈┈┈┈┈┈┈┈
+┃ ☂︎ *Fecha Islámica | Islamic Date:*
+┃%dateIslamic
+┃ ┈┈┈┈┈┈┈┈┈┈┈┈
+┃☂︎ *Tiempo | Time:*
+┃%time
+╰━━━━━━━━━━━━━━━━━━⬣
 ┌───「 INFO USER 」──⬣
 │☂︎ Nombre | Name: %name
 │☂︎ Estado | Status: --
