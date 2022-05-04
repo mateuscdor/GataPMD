@@ -487,7 +487,7 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Sudamerica/Lima').format('HH')
-  res = "Buenos Días"
+  res = "Selamat DiniHari"
   if (time >= 6) {
     res = "Buenos Días | Good Morning"
   }
