@@ -4,6 +4,7 @@
 //MANTENER LOS CREDITOS POR FAVOR. GRACIAS
 let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 wm = global.wm
+vs = global.vs
 let levelling = require('../lib/levelling')
 let fs = require('fs')
 const util = require('util')
@@ -232,6 +233,9 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃⬡ *Activa durante | Active during* 
 ┃⬡ ${uptime}
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃⬡ *Versión de GataBot-MD*
+┃⬡ ${vs}
+ ┃  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⬡ *Usuario(s) | Users*
 ┃⬡ ${Object.keys(global.db.data.users).length} 
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
