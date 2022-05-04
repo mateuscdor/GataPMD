@@ -224,7 +224,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 }                        
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
-            title: `${ucapan()}, ${name}`,
+            title: `${ucapan()}\n${name}`,
             description: `┏━━━━〔 *${wm}* 〕━━━⬣
 ┃⬡ *Tiempo Actual | Current Time*	    
 ┃⬡ ${time}   
