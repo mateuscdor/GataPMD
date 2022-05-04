@@ -20,6 +20,7 @@ const defaultMenu = {
 ┃𓃠 *Versión de GataBot-MD*
 ┃➺ ${vs}
 ┃━━━━ 「 𝙃𝙤𝙮 | 𝙏𝙤𝙙𝙖𝙮 」━━━━⬣
+${thisDay}, ${day} - ${myMonths[bulan]} - ${year}
 ┃ღ *Días | Days*
 ┃➺ %week %weton
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
