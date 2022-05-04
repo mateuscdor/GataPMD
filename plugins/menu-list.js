@@ -491,7 +491,7 @@ function ucapan() {
   if (time >= 6) {
     res = "Buenos Días | Good Morning"
   }
-  if (time > 13) {
+  if (time > 12) {
     res = "Buenas tardes | Good Afternoon"
   }
   if (time >= 18) {
