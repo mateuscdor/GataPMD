@@ -264,7 +264,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "rowId": `${_p}? info`
                 },{
                 }],    
-                "title": "INFORMASI BOT",
+                "title": "INFORMASI BOT"
               }, {
                 "rows": [{
                   "title": `☰ SEMUA PERINTAH`,
