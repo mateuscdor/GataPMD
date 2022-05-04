@@ -266,13 +266,13 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "title": "INFORMASI BOT",
               }, {
                 "rows": [{
+		  "title": "☰ 𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 𝙙𝙚 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙎𝙥𝙚𝙚𝙙",
+                  "description": "Comprueba la rapidez.\nCheck the speed.",
+                  "rowId": `${_p}? ping` 
+		  }, {
                   "title": `☰ 𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪`,
                   "description": "Presentación de todo el Menú\nPresentation of the entire Menu",
                   "rowId": '.? all'
-	          }, {
-		  "title": "☰ ping",
-                  "description": "Menampilkan Menu Anime",
-                  "rowId": `${_p}? ping`  
                   }, {
                   "title": "☰ ABSEN & VOTING",
                   "description": "Menampilkan Menu Absen",
