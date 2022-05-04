@@ -53,9 +53,9 @@ const defaultMenu = {
 ┃ *Ⓛ* = Limit
 ╰━━━━━━━━━━━━━━━━⬣
 %readmore`.trimStart(), 
- header: '⃝▣──「 %category 」───⬣',
- body: '│○ %cmd %isPremium %islimit',
- footer: '▣───────────⬣\n',
+ header: '╭━━「 %category 」━━━⬣',
+ body: '┃➺ %cmd %isPremium %islimit',
+ footer: '╰━━━━━━━━━━━━━━━━⬣\n',
   after: ``,
 }
 
