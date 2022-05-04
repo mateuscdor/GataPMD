@@ -490,7 +490,7 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Sudamerica/Lima').format('HH')
+  const time = moment.tz('America/Florida').format('HH')
   res = "Selamat DiniHari"
   if (time >= 6) {
     res = "🌇 *Buenos Días | Good Morning* ⛅"
