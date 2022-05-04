@@ -450,16 +450,14 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            hydratedFooterText: wm,
            hydratedButtons: [{
             urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://Hyzerr.github.io/'	       
+               displayText: '𝙂𝙞𝙩𝙃𝙪𝙗',
+               url: 'https://github.com/GataNina-Li/GataBot-MD'	       
 		}
-
            },
              {
               urlButton: {
                displayText: 'MY WEBSITE',
-               url: 'https://Hyzerr.github.io/'	       
-                 
+               url: 'https://Hyzerr.github.io/'	           
              }
 
            },
