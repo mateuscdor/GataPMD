@@ -226,26 +226,25 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()}\n💖´ *•.¸💝¸.•** *${name}* **•.¸💝¸.•*´💖`,
-            description: `╭━━━━━━〔 *${wm}* 〕━━━━━━⬣
-	    
+            description: `╭━━━━━━〔 *${wm}* 〕━━━━━━⬣	    
 ┃✪ *Tiempo Actual | Current Time*	    
 ┃➺ ${time}   
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Activa durante | Active during* 
 ┃➺ ${uptime}
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Versión de GataBot-MD*
 ┃➺ ${vs}
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Usuario(s) | Users*
 ┃➺ ${Object.keys(global.db.data.users).length} 
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Modo | Mode*
 ┃➺ ${global.opts['self'] ? 'Self' : 'publik'}
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Chat(s) Prohibido(s) | Forbidden Chats*
 ┃➺ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Usuario(s) Prohibido(s) | Prohibited Users*
 ┃➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ╰━━━━━━━━━━━━━━━━━━━━━⬣`,
