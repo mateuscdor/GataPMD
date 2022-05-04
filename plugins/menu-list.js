@@ -250,7 +250,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ╰━━━━━━━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "*PRESIONE ESTE MENSAJE O EL BOTÓN PARA ACCEDER AL DESPLIEGUE DEL MENÚ*\n*PRESS THIS MESSAGE OR THE BUTTON TO ACCESS THE DISPLAY MENU*",
+            footerText: "*PRESIONE ESTE MENSAJE PARA EL VER EL MENÚ.*\n*PRESS THIS MESSAGE TO SEE THE MENU.*",
             mtype: 'listMessage',
             sections: [
               {
