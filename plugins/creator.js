@@ -17,6 +17,7 @@ const q = {
 conn.sendContact(m.chat, '14509544207', 'Gata Dios', m) 
 conn.sendContact(m.chat, '593993684821', 'Oficial GataBot', m)
 m.reply("🧡 *Eso son los contactos para ti*\n*That's the contacts for you*")
+conn.sendBut(m.chat, `*[❗] kamu tidak punya kail pancingan 🎣*`, wm, `Craft Fishingrod`, '.craft pancing', m)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
