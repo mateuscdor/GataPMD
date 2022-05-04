@@ -457,14 +457,14 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            },
              {
               quickReplyButton: {
-               displayText: 'Owner',
+               displayText: '𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤',
                id: '.owner',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: 'Profile',
+               displayText: '𝙋𝙚𝙧𝙛𝙞𝙡 | 𝙋𝙧𝙤𝙛𝙞𝙡𝙚e',
                id: '.profile',
              }
            }]
