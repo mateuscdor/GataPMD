@@ -496,16 +496,16 @@ function clockString(ms) {
 function ucapan() {
   const time = moment.tz('America/Los_Angeles').format('HH')
   res = "Selamat DiniHari"
-  if (time >= 6) {
+  if (time >= 4) {
     res = "🌇 *Buenos Días | Good Morning* ⛅"
   }
-  if (time > 13) {
+  if (time > 11) {
     res = "🏙️ *Buenas Tardes | Good Afternoon* 🌤️"
   }
-  if (time >= 17) {
+  if (time >= 15) {
     res = "🌆 *Buenas tardes | Good Afternoon* 🌥️"
   }
-  if (time >= 19) {
+  if (time >= 17) {
     res = "🌃 *Buenas noches | Good Evening* 💫"
   }
   return res
