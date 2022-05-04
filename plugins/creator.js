@@ -1,3 +1,4 @@
+require('@adiwajshing/baileys')
 gt = global.gt
 function handler(m) {
 const q = {
