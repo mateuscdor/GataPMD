@@ -255,8 +255,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             sections: [
               {
                 "rows": [{
-                  "title": `OWNER BOT`,
-                  "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
+                  "title": `𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤 | 𝙊𝙬𝙣𝙚𝙧`,
+                  "description": "GataBot-MD no responde a dudas. Solo Gata Dios\nGataBot-MD does not answer questions. Only Gata Dios",
                   "rowId": `.owner`
                 },{
                   "title": "INFO BOT",
