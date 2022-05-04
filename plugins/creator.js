@@ -1,5 +1,5 @@
-gt = global.gt
 function handler(m) {
+gt = global.gt
 const q = {
 	"key": {
     "participants":"0@s.whatsapp.net",
