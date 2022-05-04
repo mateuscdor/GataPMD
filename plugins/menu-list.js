@@ -473,6 +473,12 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                displayText: '𝙋𝙚𝙧𝙛𝙞𝙡 | 𝙋𝙧𝙤𝙛𝙞𝙡𝙚e',
                id: '.profile',
              }
+	   },
+           {
+             quickReplyButton: {
+               displayText: '𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪',
+               id: '.menu',
+             }
            }]
          }
        }
