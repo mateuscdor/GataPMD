@@ -31,7 +31,7 @@ const defaultMenu = {
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ღ *Tiempo | Time:*
 ┃➺ %time
-╰━━━━━━━━━━━━━━━━━━⬣
+╰━━━━━━━━━━━━━━━━⬣
 ┌───「 INFO USER 」──⬣
 │☂︎ Nombre | Name: %name
 │☂︎ Estado | Status: --
