@@ -1,7 +1,7 @@
 {
     "name": "GataBot-MD",
     "version": "3.5.4",
-    "description": "Simple Bot WhatsApp",
+    "description": "Super Bot WhatsApp",
     "depecrated": false,
     "main": "index.js",
     "directories": {
