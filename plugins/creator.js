@@ -1,5 +1,3 @@
-require('@adiwajshing/baileys')
-gt = global.gt
 function handler(m) {
 const q = {
 	"key": {
@@ -15,7 +13,7 @@ const q = {
 	},
 	"participant": "0@s.whatsapp.net"
 }
-
+gt = global.gt
 conn.sendContact(m.chat, '14509544207', 'Gata Dios', m) 
 conn.sendContact(m.chat, '593993684821', 'Oficial GataBot', m)
 m.reply(`${gt}` "🧡 Eso son los contactos para ti\nThat's the contacts for you")
