@@ -266,8 +266,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "title": "INFORMASI BOT",
               }, {
                 "rows": [{
-                  "title": `☰ SEMUA PERINTAH`,
-                  "description": "Menampilkan Menu All",
+                  "title": `☰ 𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪`,
+                  "description": "Presentación de todo el Menú\nPresentation of the entire Menu",
                   "rowId": '.? all'
                   }, {
                   "title": "☰ ABSEN & VOTING",
