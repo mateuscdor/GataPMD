@@ -487,18 +487,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Sudamerica/Bogota').format('HH')
-  res = "Buenos Días | Good Morning"
+  res = "Selamat DiniHari"
   if (time >= 6) {
-    res = "Buenos Días | Good Morning"
+    res = "Buenos Días"
   }
   if (time > 12) {
-    res = "Buenas tardes | Good Afternoon"
+    res = "Buenas tardes"
   }
   if (time >= 18) {
-    res = "Buenas tardes | Good Afternoon"
+    res = "Buenas tardes"
   }
   if (time >= 19) {
-    res = "Buenas noches | Good Evening"
+    res = "Buenas noches"
   }
   return res
 }
