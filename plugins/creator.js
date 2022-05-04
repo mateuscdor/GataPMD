@@ -1,5 +1,5 @@
 function handler(m) {
-let gt = global.gt
+gt = global.gt
 const q = {
 	"key": {
     "participants":"0@s.whatsapp.net",
@@ -17,7 +17,7 @@ const q = {
 
 conn.sendContact(m.chat, '14509544207', 'Gata Dios', m) 
 conn.sendContact(m.chat, '593993684821', 'Oficial GataBot', m)
-m.reply(`${gt}` "🧡 Eso son los contactos para ti\nThat's the contacts for you")
+m.reply(` ${gt} ` "🧡 Eso son los contactos para ti\nThat's the contacts for you")
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
