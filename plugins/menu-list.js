@@ -248,7 +248,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Usuario(s) Prohibido(s) | Prohibited Users*
 ┃➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
-┗━━━━━━━━━━━━━━━━━━━⬣`,
+┗━━━━━━━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
             footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
