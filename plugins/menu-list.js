@@ -20,17 +20,17 @@ const defaultMenu = {
 ┃𓃠 *Versión de GataBot-MD*
 ┃➺ ${vs}
 ┃━━ 「 𝙃𝙤𝙮 | 𝙏𝙤𝙙𝙖𝙮 」━━⬣
-┃☂︎ *Dias | Days:*
-┃ %week %weton
+┃ღ *Dias | Days:*
+┃➺ %week %weton
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ ☂︎ *Fecha | Date:*
-┃ %date
+┃ღ *Fecha | Date:*
+┃➺ %date
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ ☂︎ *Fecha Islámica | Islamic Date:*
-┃%dateIslamic
+┃ღ *Fecha Islámica | Islamic Date:*
+┃➺ %dateIslamic
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃☂︎ *Tiempo | Time:*
-┃%time
+┃ღ *Tiempo | Time:*
+┃➺ %time
 ╰━━━━━━━━━━━━━━━━━━⬣
 ┌───「 INFO USER 」──⬣
 │☂︎ Nombre | Name: %name
