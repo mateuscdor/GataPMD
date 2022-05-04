@@ -22,7 +22,7 @@
 ---
 
 # GataBot-MD 🐈
-> #### 🚀 Versión actual: 1.0.4
+> #### 🚀 Versión actual: 1.0.5
 > 
 ## ❇️ Información
 > SE ESTÁ USANDO WHATSAPP CON UNA BIBLIOTECA DE BAILEYS.
