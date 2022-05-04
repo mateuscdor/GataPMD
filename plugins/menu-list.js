@@ -262,12 +262,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "title": "𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣",
                   "description": "Conoce más del menú.\nLearn more about the menu.",
                   "rowId": `${_p}? info`
-                }],
-		      "rows": [{
-                  "title": `𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤 | 𝙊𝙬𝙣𝙚𝙧`,
-                  "description": "GataBot-MD no responde a dudas. Solo Gata Dios.\nGataBot-MD does not answer questions. Only Gata Dios.",
-                  "rowId": `.owner`
-		}],	      
+                }],	      
                 "title": "INFORMASI BOT",
               }, {
                 "rows": [{
