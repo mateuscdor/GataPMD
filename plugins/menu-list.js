@@ -16,7 +16,7 @@ let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
-  ⬣───「 *DASHBOARD* 」───⬣
+  ⬣━━「 *𝙋𝙖𝙣𝙚𝙡 𝙙𝙚𝙡 𝙈𝙚𝙣𝙪́ | 𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙* 」━━⬣
   
 ┌─── 「 TODAY 」───⬣
 │☂︎ *Dias | Days:* %week %weton
