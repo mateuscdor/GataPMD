@@ -19,19 +19,19 @@ const defaultMenu = {
   ⬣───「 *DASHBOARD* 」───⬣
   
 ┌─── 「 TODAY 」───⬣
-│☂︎ *Days:* %week %weton
-│☂︎ *Date:* %date
-│☂︎ *Islamic Date:* %dateIslamic
-│☂︎ *Time:* %time
+│☂︎ *Dias | Days:* %week %weton
+│☂︎ *Fecha | Date:* %date
+│☂︎ *Fecha Islámica | Islamic Date:* %dateIslamic
+│☂︎ *Tiempo | Time:* %time
 ╰────────────⬣
 ┌───「 INFO USER 」──⬣
-│☂︎ Name: %name
-│☂︎ Status: --
-│☂︎ Limit: %limit
-│☂︎ Money: %money
-│☂︎ Exp: %totalexp
-│☂︎ Level: %level
-│☂︎ Role: %role
+│☂︎ Nombre | Name: %name
+│☂︎ Estado | Status: --
+│☂︎ Límite | Limit: %limit
+│☂︎ Dinero | Money: %money
+│☂︎ Experiencia | Exp: %totalexp
+│☂︎ Nivel | Level: %level
+│☂︎ Rol: %role
 ╰────────────⬣
 ⃝▣──「 *INFO CMD* 」───⬣
 │ *Ⓟ* = Premium
