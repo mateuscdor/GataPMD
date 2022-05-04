@@ -499,7 +499,7 @@ function ucapan() {
   if (time >= 4) {
     res = "🌇 *Buenos Días | Good Morning* ⛅"
   }
-  if (time > 11) {
+  if (time >= 11) {
     res = "🏙️ *Buenas Tardes | Good Afternoon* 🌤️"
   }
   if (time >= 15) {
