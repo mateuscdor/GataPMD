@@ -248,9 +248,9 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃✪ *Usuario(s) Prohibido(s) | Prohibited Users*
 ┃➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ╰━━━━━━━━━━━━━━━━━━━━━⬣`,
-            buttonText: 'LIST MENU',
+            buttonText: '𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐 | 𝙇𝙄𝙎𝙏 𝙈𝙀𝙉𝙐',
             listType: 1,
-            footerText: "*PRESIONE ESTE MENSAJE PARA EL VER EL MENÚ.*\n*PRESS THIS MESSAGE TO SEE THE MENU.*",
+            footerText: "*PRESIONE ESTE MENSAJE PARA IR AL MENÚ.*\n*PRESS THIS MESSAGE TO GO TO THE MENU.*",
             mtype: 'listMessage',
             sections: [
               {
