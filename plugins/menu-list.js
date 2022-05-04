@@ -263,16 +263,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "description": "Conoce más del menú.\nLearn more about the menu.",
                   "rowId": `${_p}? info`
                 },{
-                }],
-		      {
-                "rows": [{
-                  "title": `☰ SEMUA PERINTAH`,
-                  "description": "Menampilkan Menu All",
-                  "rowId": '.? all'
-                  },
-		    
-                "title": "INFORMASI BOT"
-		"description": "Menampilkan Menu All",
+                }],    
+                "title": "INFORMASI BOT",
               }, {
                 "rows": [{
                   "title": `☰ SEMUA PERINTAH`,
