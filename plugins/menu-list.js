@@ -262,6 +262,10 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "title": "𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣",
                   "description": "Conoce más del menú.\nLearn more about the menu.",
                   "rowId": `${_p}? info`
+		},{
+                  "title": "𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣",
+                  "description": "Conoce más del menú.\nLearn more about the menu.",
+                  "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
 		"description": "Menampilkan Menu All",
