@@ -452,6 +452,11 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             urlButton: {
                displayText: 'MY WEBSITE',
                url: 'https://Hyzerr.github.io/'
+		    
+		    conn.sendHydrated(m.chat, text.trim(), '𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝', pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+      ['𝙳𝙾𝙽𝙰𝚁', '/donasi'],
+      ['𝙾𝚆𝙽𝙴𝚁', '/owner']
+    ], m,)
              }
 
            },
