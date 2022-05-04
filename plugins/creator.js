@@ -16,11 +16,11 @@ const q = {
 
 conn.sendContact(m.chat, '14509544207', 'Gata Dios', m) 
 conn.sendContact(m.chat, '593993684821', 'OFICIAL GataBot', m)
-m.reply(m.chat,'*Tuh nomor owner ku tersayang*\n*Chat jika PENTING*', q)
+m.reply('*Fuera!!*')
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
-handler.command = /^(owner|creator)$/i
+handler.command = /^(contacto|owner|creator|creador|propietario|dueño|dueña|propietaria|dueño)$/i
 
 module.exports = handler
