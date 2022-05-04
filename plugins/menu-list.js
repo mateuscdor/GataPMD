@@ -263,9 +263,11 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "description": "Conoce más del menú.\nLearn more about the menu.",
                   "rowId": `${_p}? info`
 		},{
-                  "title": "𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚𝘽𝙤𝙩-𝙈𝘿 | 𝙄𝙣𝙛𝙤𝙖𝙩𝙞𝙤𝙣",
-                  "description": "Conoce ml menú.\nLearn more about the menu.",
-                  "rowId": `${_p}? info`
+		"rows": [{
+                  "title": `𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤 | 𝙊𝙬𝙣𝙚𝙧`,
+                  "description": "GataBot-MD no responde a dudas. Solo Gata Dios.\nGataBot-MD does not answer questions. Only Gata Dios.",
+                  "rowId": `.owner`
+                }, {
                 }],
                 "title": "INFORMASI BOT"
 		"description": "Menampilkan Menu All",
