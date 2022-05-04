@@ -278,8 +278,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "description": "Mostrando el Menú Ausente.\nShowing the Absent Menu.",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "☰ ANIME MENU",
-                  "description": "Menampilkan Menu Anime",
+                  "title": "☰ 𝘼𝙣𝙞𝙢𝙚 𝙈𝙚𝙣𝙪.",
+                  "description": "Mostrar menú animado.\nShow Animated Menu",
                   "rowId": `${_p}? anime`
                 }, {
                   "title": "☰ STICKER & CONVERTER",
