@@ -456,8 +456,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            },
              {
               urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://Hyzerr.github.io/'	           
+               displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢',
+               url: 'https://instagram.com/gata_dios?igshid=YmMyMTA2M2Y='	           
              }
 
            },
@@ -470,7 +470,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            },
            {
              quickReplyButton: {
-               displayText: '𝙋𝙚𝙧𝙛𝙞𝙡 | 𝙋𝙧𝙤𝙛𝙞𝙡𝙚e',
+               displayText: '𝙋𝙚𝙧𝙛𝙞𝙡 | 𝙋𝙧𝙤𝙛𝙞𝙡𝙚',
                id: '.profile',
              }
 	   },
